@@ -1,4 +1,4 @@
-Just a Basic Calculator.
+Just a Basic Calculator Code.
 For These Operations:
 1. Addition
 2. Subtraction
