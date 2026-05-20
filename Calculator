@@ -11,19 +11,23 @@ int main() {
     cout<<" Number 2 : ";
     float b;
     cin>>b;
-    char oper;
-    cout<<" Enter an Operation: ";
+    int oper;
+    cout<<" Select an Operation: 
+             1 for addition
+             2 for subtraction
+             3 for multiplication
+             4 for division"<<endl;
     cin>>oper;
-    if(oper=='+'){
+    if(oper==1){
         cout<<"The sum is: "<<a+b<<endl;
     }
-    else if(oper=='-'){
+    else if(oper==2){
         cout<<"The difference is: "<<a-b<<endl;
     }
-    else if(oper=='*'){
+    else if(oper==3){
         cout<<"The product is: "<<a*b<<endl;
     }
-    else if(oper=='/'){
+    else if(oper==4){
         cout<<"The answer is: "<<a/b<<endl;
     }
     
